@@ -10,9 +10,9 @@ function setCart(c) {
 }
 
 function addToCart(item) {
-  const itemPrice = Math.floor(Math.random() * Math.floor(100));
+  const itemP = Math.floor(Math.random() * Math.floor(100));
   //console.log(itemPrice);
-  var objitem = {itemName:": item, "itemPrice:": itemPrice};
+  var objitem = {itemName: item, itemPrice: itemP};
   //console.log("test")
   //console.log(objitem);
   cart.push(objitem);
