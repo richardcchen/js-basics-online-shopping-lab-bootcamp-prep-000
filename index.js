@@ -49,6 +49,7 @@ function removeFromCart(item) {
   var tempName;
   for (let i = 0; i < cart.length-1; i++){
     tempName = cart[i].itemName;
+    console.log(tempName);
     if (tempName === item){
       cart.splice(i);
       return cart;
