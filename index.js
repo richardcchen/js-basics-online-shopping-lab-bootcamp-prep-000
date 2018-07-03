@@ -29,7 +29,7 @@ function viewCart() {
     for (let i = 0; i < cart.length - 1; i++){
     cartstring = `${cartstring} ${cart[i].itemName} at $${cart[i].itemPrice},`
     }
-    cartstring = `${cartstring}, and ${cart[cart.length].itenName} at $${cart[cart.length].itemPrice}.`
+    cartstring = `${cartstring}, and ${cart[cart.length].itemName} at $${cart[cart.length].itemPrice}.`
     return cartstring;
     
   }
