@@ -48,7 +48,7 @@ function removeFromCart(item) {
   // write your code here
   var tempName;
   for (let i = 0; i < cart.length; i++){
-    tempName = cart[i].itemName;
+    tempName === cart[i].itemName;
     if (tempName === item){
       var cartnum = i;
       cart.slice(i);
