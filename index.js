@@ -11,7 +11,6 @@ function setCart(c) {
 
 function addToCart(item) {
   const itemP = Math.floor(Math.random() * Math.floor(100));
-  //console.log(itemPrice);
   var objitem = {itemName: item, itemPrice: itemP};
   cart.push(objitem);
   return `${item} has been added to your cart.`
@@ -21,9 +20,12 @@ function viewCart() {
   // write your code here
   if (cart.length < 1){
     return "Your shopping cart is empty."
-    
   } else{
-    
+    var ShopCart = `In your cart, you have `
+    console.log(ShopCart);
+    for (var i = 0, i < cart.length, i++){
+      
+    }
     
   }
 }
