@@ -21,11 +21,11 @@ function viewCart() {
   if (cart.length < 1){
     return "Your shopping cart is empty."
   } else{
-    var ShopCart = `In your cart, you have `
+    var ShopCart = `In your cart, you have `;
     console.log(ShopCart);
-    for (var i = 0, i < cart.length, i++){
+    //for (var i = 0, i < cart.length, i++){
       
-    }
+    //}
     
   }
 }
