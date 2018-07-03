@@ -47,11 +47,10 @@ function total() {
 function removeFromCart(item) {
   // write your code here
   var tempName;
-  var cartnum = -100
   for (let i = 0; i < cart.length; i++){
     tempName = cart[i].itemName;
     if (tempName === item){
-      cartnum = i;
+      var cartnum = i;
       cart.slice(i);
       return cart;
     }
