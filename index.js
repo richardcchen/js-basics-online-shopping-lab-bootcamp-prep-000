@@ -19,7 +19,11 @@ function addToCart(item) {
 
 function viewCart() {
   // write your code here
-  if (cart.length < 1)
+  if (cart.length < 1){
+    
+  } else{
+    
+  }
 }
 
 function total() {
