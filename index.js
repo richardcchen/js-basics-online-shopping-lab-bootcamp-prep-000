@@ -13,14 +13,13 @@ function addToCart(item) {
   const itemP = Math.floor(Math.random() * Math.floor(100));
   //console.log(itemPrice);
   var objitem = {itemName: item, itemPrice: itemP};
-  //console.log("test")
-  //console.log(objitem);
   cart.push(objitem);
   return `${item} has been added to your cart.`
 }
 
 function viewCart() {
   // write your code here
+  if (cart.length < 1)
 }
 
 function total() {
