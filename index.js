@@ -52,13 +52,10 @@ function removeFromCart(item) {
     tempName = cart[i].itemName;
     if (tempName === item){
       cartnum = i;
-    }
-    if (cartnum === -100){
-      return "That item is not in your cart.";
-    } else {
-      cart.splice(cartnum);
+      cart.slice(i);
       return cart;
     }
+      return "That item is not in your cart.";
     
   }
   
